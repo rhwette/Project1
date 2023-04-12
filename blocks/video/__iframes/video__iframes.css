@@ -1,0 +1,22 @@
+.video__iframes {
+  /*
+    note: a balance between "padding-top" in video__iframes
+        and "translateY" in video__iframe must be achieved
+        to provide the required spacing (50px) between "iframe" and "subtitle" 
+
+        the picture of Kaufman's right sleeve in the brief 
+        defines the amount of downward translation needed (65px)
+
+        removing "padding-top: 50px" from video__iframe will result in
+        a 65px spacing between "iframe" and "subtitle"
+
+        to reduce this spacing to 50px, use "margin-top: -15px"  
+
+  */
+  /*padding-top: 50px;*/
+    margin: auto;
+    margin-top: -15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
